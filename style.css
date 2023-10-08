@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+.banner {
+  background-image: url(images/jagg.jpg);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #333;
+}
+
+.btn {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 20px 30px
+  color 1.5rem;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background-color 1.2s;
+  width: 500px;
+  height: 30px;
+}
+
+.button:hover {
+  background-color: #ff6659;
+}
+
+.cars {
+  padding: 20px;
+  display: 0;
+}
+
+ a:hover{
+  border : 2px solid black;
+ }
+#d{
+  background-color:red;
+  color:white;
+}
+#i{
+  background-color: #ff6659;
+  color: #fff;
+}
+.carss{
+  padding: 20px;
+  display: 0;
+  }
+
+*{
+  box-sizing: border-box;
+}
+.column{
+  float: left;
+  width: 40.33%;
+  padding: 5px;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.carcard {
+  float: left;
+  width: 25.55%;
+}
+.cars::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.payments{
+  background-image: url(images/lux.jpg.jpg);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactus{
+  background-image: url(images/contact.jpg);
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.signin{
+  background-image: url(images/log.jpg);
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
